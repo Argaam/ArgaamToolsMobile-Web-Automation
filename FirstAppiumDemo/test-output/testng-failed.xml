@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AppiumDemo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MobileWeb(failed)">
+    <parameter name="platformVersion" value="13"/>
+    <parameter name="automationName" value="UiAutomator2"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="R58R63TKBKH"/>
+    <parameter name="url" value="http://localhost:4723/wd/hub"/>
+    <classes>
+      <class name="FirstAndroidTest">
+        <methods>
+          <include name="MedCareRanking"/>
+          <include name="PricePerBookRatios"/>
+          <include name="setUp"/>
+          <include name="ReitPropertyValuation"/>
+          <include name="MedCareRatios"/>
+          <include name="Inflation"/>
+          <include name="DividentYield"/>
+          <include name="ReturnOnAssetsAndEquity"/>
+          <include name="NonFoodPrices"/>
+          <include name="TopGrowthCompanies"/>
+          <include name="InsuranceCompaniesEssentialRatios"/>
+          <include name="StockReturnCalculatorTest"/>
+          <include name="NetDebtPerEquity"/>
+          <include name="PetroChemicalRatios"/>
+          <include name="RetailRankings"/>
+          <include name="TopLoosingCompanies"/>
+          <include name="MacroEconomyData"/>
+          <include name="GroceryRatios"/>
+          <include name="RetailRatios"/>
+          <include name="ExportsAndImports"/>
+          <include name="ReitsEssentialRatios"/>
+          <include name="OilGasAndFuelPricesData"/>
+          <include name="GroceryRanking"/>
+          <include name="ValuationsOfBanksComparisons"/>
+          <include name="ReitsRanking"/>
+          <include name="SaiborAndLaiborRates"/>
+          <include name="ImpliedPricesForBanks"/>
+          <include name="DividentYieldDetailed"/>
+          <include name="PetroChemicalPricesAndQuantities"/>
+          <include name="MonetaryAndEconomicStatistics"/>
+          <include name="tearDown"/>
+          <include name="InsuranceCompaniesRanking"/>
+          <include name="FoodPrices"/>
+          <include name="PriceToEarningsRatio"/>
+          <include name="PetroChemicalRanking"/>
+          <include name="TopDividendCompanies"/>
+        </methods>
+      </class> <!-- FirstAndroidTest -->
+    </classes>
+  </test> <!-- MobileWeb(failed) -->
+</suite> <!-- Failed suite [AppiumDemo] -->

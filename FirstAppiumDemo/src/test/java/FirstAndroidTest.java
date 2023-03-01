@@ -34,7 +34,7 @@ public class FirstAndroidTest {
         caps.setCapability("platformName", "Android");
         caps.setCapability("automationName","UiAutomator2");
         caps.setCapability("platformVersion","13");
-        caps.setCapability("deviceName","R58R63TKBKH");
+        caps.setCapability("deviceName","R58R63TKBKH");//R58R63TKBKH
         caps.setCapability("browserName","Chrome");
 
         driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), caps);

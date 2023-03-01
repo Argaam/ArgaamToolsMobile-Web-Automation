@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="AppiumDemo">
+    <test verbose="2" preserve-order="true" name="MobileWeb">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="automationName" value="UiAutomator2"/>
+        <parameter name="platformVersion" value="13" />
+        <parameter name="deviceName" value="R58R63TKBKH" />
+        <parameter name="url" value="http://localhost:4723/wd/hub" />
+        <classes>
+            <class name="FirstAndroidTest" />
+        </classes>
+    </test>
+</suite>
